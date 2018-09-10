@@ -32,6 +32,7 @@
         </config-file>
         <source-file src="src/android/res/xml/opener_paths.xml" target-dir="res/xml" />
         <framework src="com.android.support:support-v4:+" />
+		<framework src="src/android/build-extras.gradle" custom="true" type="gradleReference"/>
     </platform>
 
     <!-- iOS -->
